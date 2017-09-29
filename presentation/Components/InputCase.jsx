@@ -14,7 +14,7 @@ export default class SearchBar extends React.Component {
   render() {
     return (
       <form>
-        <input type="text" placeholder="Embrace yourcasef"
+        <input type="text" placeholder="Embrace yourCASElf"
           ref="textoDeInput" value={ this.props.text } onChange={ this.handleChange } />
       </form>
     )
